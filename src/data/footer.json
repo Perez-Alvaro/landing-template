@@ -1,0 +1,11 @@
+{
+  "companyName": "Fintech Global",
+  "description": "Empowering your financial freedom with secure and modern digital solutions.",
+  "links": [
+    { "label": "About Us", "url": "#" },
+    { "label": "Features", "url": "#" },
+    { "label": "Pricing", "url": "#" },
+    { "label": "Contact", "url": "#" }
+  ],
+  "copyright": "© 2025 Fintech Global. All rights reserved."
+}

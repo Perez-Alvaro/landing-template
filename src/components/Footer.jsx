@@ -1,10 +1,27 @@
-import styles from './Footer.module.css';
+import React from "react";
+import footerData from "../data/footer.json";
 
-export default function Footer({ data }) {
+const Footer = () => {
   return (
-    <section className={styles.section}>
-      <h2 className={styles.title}>Footer Section</h2>
-      <p className={styles.text}>Placeholder content from Footer.jsx</p>
-    </section>
+    <footer className="footer-section">
+      <div className="footer-container">
+        <div className="footer-brand">
+          <h3 className="footer-company">{footerData.companyName}</h3>
+          <p className="footer-description">{footerData.description}</p>
+        </div>
+        <div className="footer-links">
+          {footerData.links.map((link, index) => (
+            <a key={index} href={link.url} className="footer-link">
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>{footerData.copyright}</p>
+      </div>
+    </footer>
   );
-}
+};
+
+export default Footer;

@@ -5,7 +5,7 @@ import './styles.css';
 import Features from "./components/Features";
 import Steps from "./components/Steps";
 import FAQ from "./components/FAQ";
-
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Features />
       <Steps />
       <FAQ />
+      <Footer />
     </div>
   );
 }
