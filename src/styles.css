@@ -1,0 +1,257 @@
+/* ====== RESET Y FUENTES BASE ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4ff; /* Fondo celeste claro */
+  color: #111;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* ====== UTILITARIOS ====== */
+.text-center {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 20px;
+}
+
+.shadow {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+  background: linear-gradient(90deg, #669cf6, #4f6dfb);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 100px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.95;
+}
+
+/* ====== TÍTULOS ====== */
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}
+.hero {
+  background-color: #f4f7ff;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero-tag {
+  background: linear-gradient(90deg, #6d84f9, #87a5ff);
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 2rem;
+  border-radius: 2rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+  color: #0f0f0f;
+}
+
+.hero-description {
+  color: #555;
+  margin: 1rem auto 2rem;
+  max-width: 600px;
+  font-size: 1.1rem;
+}
+
+.hero-button {
+  background-color: #6d84f9;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.about-content {
+  text-align: left;
+}
+
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.features-section {
+  padding: 4rem 1rem;
+  background-color: #f8f9ff;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  color: #555;
+  font-size: 0.95rem;
+}
+.steps-section {
+  background-color: #ffffff;
+  padding: 4rem 1rem;
+}
+
+.steps-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.step-card {
+  background-color: #f0f4ff;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-4px);
+}
+
+.step-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4c6ef5;
+  margin-bottom: 0.5rem;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.step-description {
+  font-size: 0.95rem;
+  color: #555;
+}
+.faq-section {
+  background-color: #f7f9ff;
+  padding: 4rem 1rem;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.faq-answer {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

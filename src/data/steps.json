@@ -1,0 +1,17 @@
+[
+  {
+    "step": "1",
+    "title": "Create Your Account",
+    "description": "Sign up in minutes with your email and a secure password. No paperwork required."
+  },
+  {
+    "step": "2",
+    "title": "Verify Your Identity",
+    "description": "Upload your ID and take a quick selfie to keep your account safe and compliant."
+  },
+  {
+    "step": "3",
+    "title": "Start Transacting",
+    "description": "Send, receive, and manage your money globally, all in one place."
+  }
+]

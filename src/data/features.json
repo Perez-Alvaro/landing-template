@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Secure Transactions",
+    "description": "Your money is protected with bank-level encryption and fraud detection systems.",
+    "icon": "🔒"
+  },
+  {
+    "title": "Global Transfers",
+    "description": "Send and receive money across the world in seconds, with real-time tracking.",
+    "icon": "🌍"
+  },
+  {
+    "title": "Multi-Currency Accounts",
+    "description": "Hold, spend, and convert multiple currencies all from one simple account.",
+    "icon": "💱"
+  }
+]
