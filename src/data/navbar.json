@@ -1,0 +1,10 @@
+{
+  "logo": "Fintech",
+  "logoLink": "#",
+  "links": [
+    {"label": "About", "url": "#about"},
+    {"label": "Features", "url": "#features"},
+    {"label": "Pricing", "url": "#pricing"},
+    {"label": "Contact", "url": "#contact"}
+  ]
+}
