@@ -6,27 +6,27 @@
 }
 
 :root {
-  --color-1: #0199e4;
-  --color-2: #01b7df;
-  --color-3: #01d3da;
-  --color-4: #7ef7d0;
-  --color-5: #ffffff;
+  /* Palette inspired by modern clean design */
+  --color-1: #D7FB00; /* highlight */
+  --color-2: #70CFFF; /* primary accent */
+  --color-3: #EEF7FA; /* light card bg */
+  --color-4: #70CFFF; /* gradient helper */
+  --color-5: #FFFFFF;
 
-
-  --color-bg: var(--color-5);
-  --color-text: #222222;
+  --color-bg: var(--color-5); /* global background */
+  --color-text: #000000; /* main text */
   --color-secondary: #555555;
-  --color-accent: var(--color-1);
-  --color-card: #f5f7f9;
+  --color-accent: var(--color-2); /* buttons */
+  --color-card: var(--color-3);
 
 }
 
 .linear-gradient {
-  background: linear-gradient(0.25turn, var(--color-1), var(--color-2), var(--color-3), var(--color-4), var(--color-5));
+  background: linear-gradient(0.25turn, var(--color-1), var(--color-2), var(--color-3));
 }
 
 .radial-gradient {
-  background: radial-gradient(circle, var(--color-1), var(--color-2), var(--color-3), var(--color-4), var(--color-5));
+  background: radial-gradient(circle, var(--color-1), var(--color-2), var(--color-3));
 }
 
 body {
@@ -117,7 +117,8 @@ p {
   color: var(--color-secondary);
 }
 .hero {
-  background: linear-gradient(135deg, var(--color-2), var(--color-4));
+  background: linear-gradient(135deg, var(--color-1), var(--color-2));
+
   text-align: center;
   padding: 5rem 1rem;
 }
@@ -204,24 +205,41 @@ p {
 .faq-item {
   margin-bottom: 1.5rem;
   padding: 1.25rem;
-  background-color: var(--color-bg);
+  background-color: var(--color-card);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
 
 .faq-question {
   font-size: 1.125rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .faq-answer {
   color: var(--color-secondary);
   font-size: 0.95rem;
   line-height: 1.5;
+  margin-top: 0.75rem;
+  display: none;
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+}
+
+.faq-item.open .faq-icon {
+  transform: rotate(180deg);
 }
 .footer-section {
-  background: linear-gradient(0.25turn, var(--color-1), var(--color-2));
+  background: linear-gradient(0.25turn, var(--color-2), var(--color-1));
   color: var(--color-text);
   padding: 3rem 1rem 2rem;
   transition: background-color 0.3s ease;
@@ -272,7 +290,7 @@ p {
 
 /* ====== NAVBAR ====== */
 .navbar {
-  background: linear-gradient(90deg, var(--color-2), var(--color-3));
+  background: linear-gradient(90deg, var(--color-2), var(--color-1));
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: background-color 0.3s ease;
