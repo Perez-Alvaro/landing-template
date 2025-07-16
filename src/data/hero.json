@@ -1,7 +1,7 @@
 {
   "name": "Álvaro Perez",
-  "profession": "Est. Ing. en Sistemas",
-  "description": "Apasionado por la automatización, prototipado y diseño UX/UI. Manejo React, JavaScript y Python.",
+  "profession": "Estudiante de Ing. en Sistemas",
+  "description": "Apasionado por la automatización, el desarrollo web y el diseño UX/UI.",
   "buttonText": "Ver proyectos",
   "buttonLink": "#projects",
   "image": "/hero-avatar.png"
