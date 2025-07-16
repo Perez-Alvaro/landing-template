@@ -12,9 +12,9 @@
   --color-4: #7ef7d0;
   --color-5: #ffffff;
 
-  --color-bg: var(--color-1);
+  --color-bg: #ffffff;
   --color-accent: var(--color-4);
-  --color-text: var(--color-5);
+  --color-text: #333333;
   --color-secondary: var(--color-3);
   --color-card: var(--color-2);
 }
@@ -51,6 +51,22 @@ button {
 
 .rounded {
   opacity: 0.95;
+}
+
+/* Simple fade-in animation used across sections */
+.fade-in {
+  opacity: 0;
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Generic section padding */
+.section {
+  padding: 4rem 1rem;
 }
 
 /* ====== TÍTULOS ====== */
@@ -243,5 +259,14 @@ p {
 .nav-links {
   display: flex;
   gap: 1.5rem;
+}
+
+.nav-link {
+  color: var(--color-text);
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-accent);
 }
 
