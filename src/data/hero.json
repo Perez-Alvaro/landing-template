@@ -1,7 +1,7 @@
 {
-  "tag": "Currency Exchange",
-  "title": "Global. Online. Banking.",
-  "description": "We offer personal and business accounts that are easy to open",
-  "buttonText": "Get Started →",
-  "buttonLink": "#"
+  "name": "John Doe",
+  "profession": "Full Stack Developer",
+  "description": "I build scalable web applications and interactive experiences.",
+  "buttonText": "View Projects →",
+  "buttonLink": "#projects"
 }

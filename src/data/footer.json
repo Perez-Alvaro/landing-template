@@ -1,11 +1,10 @@
 {
-  "companyName": "Fintech Global",
-  "description": "Empowering your financial freedom with secure and modern digital solutions.",
+  "companyName": "John Doe",
+  "description": "Full Stack Developer passionate about clean code and modern web.",
   "links": [
-    { "label": "About Us", "url": "#" },
-    { "label": "Features", "url": "#" },
-    { "label": "Pricing", "url": "#" },
-    { "label": "Contact", "url": "#" }
+    { "label": "LinkedIn", "url": "https://linkedin.com" },
+    { "label": "GitHub", "url": "https://github.com" },
+    { "label": "Email", "url": "mailto:johndoe@example.com" }
   ],
-  "copyright": "© 2025 Fintech Global. All rights reserved."
+  "copyright": "© 2025 John Doe. All rights reserved."
 }

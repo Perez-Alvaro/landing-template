@@ -1,17 +1,17 @@
 [
   {
     "step": "1",
-    "title": "Create Your Account",
-    "description": "Sign up in minutes with your email and a secure password. No paperwork required."
+    "title": "Plan",
+    "description": "Understand goals and design clean solutions."
   },
   {
     "step": "2",
-    "title": "Verify Your Identity",
-    "description": "Upload your ID and take a quick selfie to keep your account safe and compliant."
+    "title": "Build",
+    "description": "Develop responsive interfaces and scalable backends."
   },
   {
     "step": "3",
-    "title": "Start Transacting",
-    "description": "Send, receive, and manage your money globally, all in one place."
+    "title": "Launch",
+    "description": "Deploy and iterate quickly for continuous improvement."
   }
 ]

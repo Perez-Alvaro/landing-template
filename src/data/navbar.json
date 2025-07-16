@@ -1,0 +1,10 @@
+{
+  "logo": "John Doe",
+  "logoLink": "#",
+  "links": [
+    {"label": "About", "url": "#about"},
+    {"label": "Projects", "url": "#projects"},
+    {"label": "Stack", "url": "#stack"},
+    {"label": "Contact", "url": "#contact"}
+  ]
+}

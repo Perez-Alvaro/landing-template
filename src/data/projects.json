@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "Personal site built with React and Vite.",
+    "image": "/about-default.png",
+    "url": "#"
+  },
+  {
+    "title": "E-commerce Platform",
+    "description": "Online store with custom checkout and admin dashboard.",
+    "image": "/about-default.png",
+    "url": "#"
+  },
+  {
+    "title": "Open Source Library",
+    "description": "Reusable components for fast UI development.",
+    "image": "/about-default.png",
+    "url": "#"
+  }
+]
