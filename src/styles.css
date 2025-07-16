@@ -270,6 +270,7 @@ p {
   color: var(--color-accent);
 }
 
+
 /* ====== FEATURES / SKILLS ====== */
 .features-section {
   background-color: var(--color-bg);
@@ -555,3 +556,4 @@ p {
 .contact-link {
   color: var(--color-accent);
 }
+
