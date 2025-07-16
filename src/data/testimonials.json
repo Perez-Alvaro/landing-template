@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Cliente A",
+    "text": "Trabajar con Álvaro fue muy sencillo y cumplió con todos los objetivos del proyecto.",
+    "avatar": "/about-default.png"
+  },
+  {
+    "name": "Compañero B",
+    "text": "Su enfoque creativo y habilidades técnicas mejoraron nuestro equipo.",
+    "avatar": "/about-default.png"
+  }
+]

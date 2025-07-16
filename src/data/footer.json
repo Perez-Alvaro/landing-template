@@ -1,11 +1,10 @@
 {
-  "companyName": "Fintech Global",
-  "description": "Empowering your financial freedom with secure and modern digital solutions.",
+  "companyName": "Álvaro Perez",
+  "description": "Est. de Ingeniería en Sistemas apasionado por la automatización y el diseño UX/UI.",
   "links": [
-    { "label": "About Us", "url": "#" },
-    { "label": "Features", "url": "#" },
-    { "label": "Pricing", "url": "#" },
-    { "label": "Contact", "url": "#" }
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/alvaroperez" },
+    { "label": "GitHub", "url": "https://github.com/alvaroperez" },
+    { "label": "Email", "url": "mailto:alvaro.perez@example.com" }
   ],
-  "copyright": "© 2025 Fintech Global. All rights reserved."
+  "copyright": "© 2025 Álvaro Perez"
 }

@@ -1,0 +1,9 @@
+{
+  "email": "alvaro.perez@example.com",
+  "phone": "+54 351 1234567",
+  "location": "Córdoba, Argentina",
+  "social": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/alvaroperez" },
+    { "label": "GitHub", "url": "https://github.com/alvaroperez" }
+  ]
+}

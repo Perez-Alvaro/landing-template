@@ -1,7 +1,8 @@
 {
-  "tag": "Currency Exchange",
-  "title": "Global. Online. Banking.",
-  "description": "We offer personal and business accounts that are easy to open",
-  "buttonText": "Get Started →",
-  "buttonLink": "#"
+  "name": "Álvaro Perez",
+  "profession": "Est. Ing. en Sistemas",
+  "description": "Apasionado por la automatización, prototipado y diseño UX/UI. Manejo React, JavaScript y Python.",
+  "buttonText": "Ver proyectos",
+  "buttonLink": "#projects",
+  "image": "/hero-avatar.png"
 }

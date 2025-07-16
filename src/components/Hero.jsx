@@ -4,10 +4,11 @@ import "../styles.css";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero-container">
-        <div className="hero-tag">{heroData.tag}</div>
-        <h1 className="hero-title">{heroData.title}</h1>
+        <img src={heroData.image} alt={heroData.name} className="hero-image" />
+        <div className="hero-tag">{heroData.name}</div>
+        <h1 className="hero-title">{heroData.profession}</h1>
         <p className="hero-description">{heroData.description}</p>
         <a href={heroData.buttonLink} className="hero-button">
           {heroData.buttonText}
