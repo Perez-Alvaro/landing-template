@@ -13,6 +13,7 @@
   --color-4: #70CFFF; /* gradient helper */
   --color-5: #FFFFFF;
 
+
   --color-bg: var(--color-5); /* global background */
   --color-text: #000000; /* main text */
   --color-secondary: #555555;
@@ -117,10 +118,16 @@ p {
   color: var(--color-secondary);
 }
 .hero {
-  background: linear-gradient(135deg, var(--color-1), var(--color-2));
+
+  background: linear-gradient(135deg, var(--color-2), var(--color-3));
 
   text-align: center;
   padding: 5rem 1rem;
+  color: var(--color-text);
+}
+.hero-container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 .hero-container {
   max-width: 800px;
@@ -162,6 +169,12 @@ p {
 
 .hero-button {
   margin-top: 1rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.about-section {
+  background: var(--color-5);
+  color: var(--color-text);
 }
 .about-grid {
   display: grid;
@@ -307,7 +320,8 @@ p {
 .nav-logo {
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--color-accent);
+  color: var(--color-text);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .nav-links {
@@ -324,10 +338,10 @@ p {
   color: var(--color-accent);
 }
 
-
 /* ====== FEATURES / SKILLS ====== */
 .features-section {
-  background-color: var(--color-bg);
+  background: linear-gradient(180deg, var(--color-5), var(--color-3));
+
   padding: 4rem 1rem;
 }
 
@@ -597,6 +611,10 @@ p {
   color: var(--color-text);
   text-align: center;
   padding: 4rem 1rem;
+
+  background-image: radial-gradient(var(--color-3) 1px, transparent 1px);
+  background-size: 12px 12px;
+
 }
 
 .contact-container {
@@ -617,5 +635,9 @@ p {
 
 .contact-link {
   color: var(--color-accent);
+}
+
+.contact-icon {
+  margin-right: 0.25rem;
 }
 
