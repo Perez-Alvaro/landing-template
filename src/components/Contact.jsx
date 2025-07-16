@@ -11,7 +11,7 @@ const Contact = () => (
       <div className="contact-links">
         {contactData.social.map((item, index) => (
           <a key={index} href={item.url} className="contact-link">
-            {item.label}
+            <span className="contact-icon">★</span> {item.label}
           </a>
         ))}
       </div>
