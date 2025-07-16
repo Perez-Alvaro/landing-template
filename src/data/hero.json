@@ -1,7 +1,8 @@
 {
-  "name": "John Doe",
-  "profession": "Full Stack Developer",
-  "description": "I build scalable web applications and interactive experiences.",
-  "buttonText": "View Projects →",
-  "buttonLink": "#projects"
+  "name": "Álvaro Perez",
+  "profession": "Est. Ing. en Sistemas",
+  "description": "Apasionado por la automatización, prototipado y diseño UX/UI. Manejo React, JavaScript y Python.",
+  "buttonText": "Ver proyectos",
+  "buttonLink": "#projects",
+  "image": "/hero-avatar.png"
 }

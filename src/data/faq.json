@@ -1,18 +1,6 @@
 [
-  {
-    "question": "Which technologies do you specialize in?",
-    "answer": "I focus on the MERN stack but enjoy exploring new tools."
-  },
-  {
-    "question": "Do you take freelance projects?",
-    "answer": "Yes, I'm open to challenging freelance opportunities."
-  },
-  {
-    "question": "Can you work remotely?",
-    "answer": "Absolutely, I have experience with distributed teams."
-  },
-  {
-    "question": "How can I contact you?",
-    "answer": "Use the form below or email me at johndoe@example.com."
-  }
+  {"question": "¿Hacés trabajos freelance?", "answer": "Sí, estoy disponible para proyectos interesantes."},
+  {"question": "¿Qué herramientas usás?", "answer": "Principalmente React, Figma y Python, pero me adapto rápido a nuevas tecnologías."},
+  {"question": "¿Trabajás de manera remota?", "answer": "Sí, cuento con experiencia colaborando a distancia."},
+  {"question": "¿Podemos coordinar una reunión?", "answer": "Contactame por LinkedIn o email para agendar."}
 ]

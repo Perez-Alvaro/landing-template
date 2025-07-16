@@ -1,9 +1,9 @@
 {
-  "email": "johndoe@example.com",
-  "phone": "+1 555 123 4567",
-  "location": "Remote / Worldwide",
+  "email": "perezalvaroraul26@gmail.com",
+  "phone": "+54 299 6086076",
+  "location": "Córdoba, Argentina",
   "social": [
-    { "label": "LinkedIn", "url": "https://linkedin.com" },
-    { "label": "GitHub", "url": "https://github.com" }
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/alvaroperez" },
+    { "label": "GitHub", "url": "https://github.com/Perez-Alvaro" }
   ]
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import About from "./components/About";
 import './styles.css';
-import Features from "./components/Features";
+import Skills from "./components/Skills";
 import Steps from "./components/Steps";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
@@ -12,6 +12,7 @@ import FinalSection from "./components/FinalSection";
 import Projects from "./components/Projects";
 import Stack from "./components/Stack";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Contact from "./components/Contact";
 
 function App() {
@@ -22,15 +23,14 @@ function App() {
       <About />
       <Stack />
       <Projects />
-      <Features />
+      <Skills />
       <Steps />
-
       <Experience />
+      <Education />
       <Testimonials />
       <FAQ />
       <FinalSection />
       <Contact />
-
       <Footer />
     </div>
   );

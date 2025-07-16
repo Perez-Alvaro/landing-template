@@ -1,6 +1,6 @@
 [
   { "name": "React", "icon": "⚛️" },
-  { "name": "Node.js", "icon": "🟢" },
-  { "name": "MongoDB", "icon": "🍃" },
-  { "name": "Docker", "icon": "🐳" }
+  { "name": "JavaScript", "icon": "📜" },
+  { "name": "Python", "icon": "🐍" },
+  { "name": "Figma", "icon": "🎨" }
 ]

@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
-import Features from "../components/Features";
+import Skills from "../components/Skills";
 import Steps from "../components/Steps";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -14,7 +14,7 @@ export default function LandingGeneral({ data }) {
       <Navbar data={data} />
       <Hero data={data} />
       <About data={data} />
-      <Features data={data} />
+      <Skills data={data} />
       <Steps data={data} />
       <Testimonials data={data} />
       <FAQ data={data} />

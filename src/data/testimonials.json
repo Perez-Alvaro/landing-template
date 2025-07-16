@@ -1,14 +1,12 @@
 [
   {
-    "name": "Alice Johnson",
-    "text": "Working with John was a pleasure. The project was delivered on time and exceeded expectations.",
-
+    "name": "Matias Ortiz",
+    "text": "Trabajar con Álvaro fue muy sencillo y cumplió con todos los objetivos del proyecto.",
     "avatar": "/about-default.png"
   },
   {
-    "name": "Mark Smith",
-    "text": "John's attention to detail and clean code made collaboration easy.",
-
+    "name": "Gaston Oteiza",
+    "text": "Su enfoque creativo y habilidades técnicas mejoraron nuestro equipo.",
     "avatar": "/about-default.png"
   }
 ]

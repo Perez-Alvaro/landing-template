@@ -1,12 +1,12 @@
 {
-
-  "logo": "John Doe",
+  "logo": "Álvaro Perez",
   "logoLink": "#",
   "links": [
-    {"label": "About", "url": "#about"},
-    {"label": "Projects", "url": "#projects"},
-    {"label": "Stack", "url": "#stack"},
-
-    {"label": "Contact", "url": "#contact"}
+    { "label": "Sobre mí", "url": "#about" },
+    { "label": "Habilidades", "url": "#skills" },
+    { "label": "Proyectos", "url": "#projects" },
+    { "label": "Experiencia", "url": "#experience" },
+    { "label": "Educación", "url": "#education" },
+    { "label": "Contacto", "url": "#contact" }
   ]
 }

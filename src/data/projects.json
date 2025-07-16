@@ -1,20 +1,20 @@
 [
   {
-    "title": "Portfolio Website",
-    "description": "Personal site built with React and Vite.",
+    "title": "Automatización de invernaderos",
+    "description": "Sistema de sensores y control con Arduino y Python.",
     "image": "/about-default.png",
-    "url": "#"
+    "url": "https://github.com/alvaro/invernaderos"
   },
   {
-    "title": "E-commerce Platform",
-    "description": "Online store with custom checkout and admin dashboard.",
+    "title": "Planificador de Proyectos",
+    "description": "Herramienta colaborativa para planificación remota.",
     "image": "/about-default.png",
-    "url": "#"
+    "url": "https://github.com/alvaro/planificador"
   },
   {
-    "title": "Open Source Library",
-    "description": "Reusable components for fast UI development.",
+    "title": "Prototipador UX",
+    "description": "Librería de componentes en Figma para diseño ágil.",
     "image": "/about-default.png",
-    "url": "#"
+    "url": "https://github.com/alvaro/prototipador"
   }
 ]
