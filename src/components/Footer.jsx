@@ -3,7 +3,7 @@ import footerData from "../data/footer.json";
 
 const Footer = () => {
   return (
-    <footer className="footer-section">
+    <footer className="footer-section fade-in">
       <div className="footer-container">
         <div className="footer-brand">
           <h3 className="footer-company">{footerData.companyName}</h3>

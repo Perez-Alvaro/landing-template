@@ -1,10 +1,12 @@
 {
-  "logo": "Fintech",
+
+  "logo": "John Doe",
   "logoLink": "#",
   "links": [
     {"label": "About", "url": "#about"},
-    {"label": "Features", "url": "#features"},
-    {"label": "Pricing", "url": "#pricing"},
+    {"label": "Projects", "url": "#projects"},
+    {"label": "Stack", "url": "#stack"},
+
     {"label": "Contact", "url": "#contact"}
   ]
 }

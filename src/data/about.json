@@ -1,9 +1,9 @@
 {
-  "badge": "About us",
-  "title": "Who We Are?",
-  "description": "We’re a global platform dedicated to simplifying currency exchange and cross-border transactions. Our mission is to provide individuals and businesses with an efficient, cost-effective, and secure way to manage their international finances. Trusted by thousands of users worldwide, we strive to make global business as seamless as local.",
+  "badge": "About Me",
+  "title": "Who am I?",
+  "description": "I'm a developer passionate about creating modern web experiences and learning new technologies.",
   "button": {
-    "text": "Get Started →",
+    "text": "Download CV",
     "link": "#"
   }
 }

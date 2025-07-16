@@ -9,6 +9,10 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials";
 import FinalSection from "./components/FinalSection";
+import Projects from "./components/Projects";
+import Stack from "./components/Stack";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,11 +20,17 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Stack />
+      <Projects />
       <Features />
       <Steps />
+
+      <Experience />
       <Testimonials />
       <FAQ />
       <FinalSection />
+      <Contact />
+
       <Footer />
     </div>
   );
