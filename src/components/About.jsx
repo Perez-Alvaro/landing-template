@@ -10,7 +10,7 @@ const About = () => {
           <span className="badge">{aboutData.badge}</span>
           <h2 className="about-title">{aboutData.title}</h2>
           <p className="about-description">{aboutData.description}</p>
-          <a href={aboutData.button.link} className="btn primary">
+          <a href={aboutData.button.link} className="btn">
             {aboutData.button.text}
           </a>
         </div>

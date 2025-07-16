@@ -1,7 +1,7 @@
 {
-"badge": "Sobre mí",
+  "badge": "Sobre mí",
   "title": "Conóceme",
-  "description": "Soy Álvaro Perez, estudiante avanzado de Ingeniería en Sistemas en UTN FRC. Me gusta combinar tecnología y creatividad para crear soluciones eficientes.",
+  "description": "Soy Álvaro Perez, estudiante de 4° año de Ingeniería en Sistemas en UTN FRC. Combino automatización y diseño UX/UI para optimizar procesos.",
   "button": {
     "text": "Descargar CV",
     "link": "#"
