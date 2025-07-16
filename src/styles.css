@@ -83,7 +83,6 @@ button {
   letter-spacing: 0.05rem;
 }
 
-
 /* Simple fade-in animation used across sections */
 .fade-in {
   opacity: 0;
@@ -128,10 +127,8 @@ p {
 .hero-container {
   max-width: 800px;
   margin: 0 auto;
-}
-.hero-container {
-  max-width: 800px;
-  margin: 0 auto;
+
+
 }
 .hero-image {
   width: 120px;
