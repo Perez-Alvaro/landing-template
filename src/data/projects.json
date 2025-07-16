@@ -3,18 +3,36 @@
     "title": "Automatización de invernaderos",
     "description": "Sistema de sensores y control con Arduino y Python.",
     "image": "/about-default.png",
-    "url": "https://github.com/alvaro/invernaderos"
+    "url": "/proyecto"
   },
   {
     "title": "Planificador de Proyectos",
     "description": "Herramienta colaborativa para planificación remota.",
     "image": "/about-default.png",
-    "url": "https://github.com/alvaro/planificador"
+    "url": "/proyecto"
   },
   {
     "title": "Prototipador UX",
     "description": "Librería de componentes en Figma para diseño ágil.",
     "image": "/about-default.png",
-    "url": "https://github.com/alvaro/prototipador"
+    "url": "/proyecto"
+  },
+  {
+    "title": "Dashboard de Métricas",
+    "description": "Visualización interactiva de indicadores clave.",
+    "image": "/about-default.png",
+    "url": "/proyecto"
+  },
+  {
+    "title": "Bot de Automatización",
+    "description": "Scripts para mejorar procesos repetitivos en empresas.",
+    "image": "/about-default.png",
+    "url": "/proyecto"
+  },
+  {
+    "title": "Landing Optimizada",
+    "description": "Sitio liviano y responsive para campañas de marketing.",
+    "image": "/about-default.png",
+    "url": "/proyecto"
   }
 ]

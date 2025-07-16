@@ -1,17 +1,17 @@
 [
   {
     "step": "1",
-    "title": "Plan",
-    "description": "Understand goals and design clean solutions."
+    "title": "Prototipado y descubrimiento",
+    "description": "Detecto necesidades y diseño centrado en el usuario."
   },
   {
     "step": "2",
-    "title": "Build",
-    "description": "Develop responsive interfaces and scalable backends."
+    "title": "Desarrollo ágil",
+    "description": "Creo un MVP funcional para validar rápidamente."
   },
   {
     "step": "3",
-    "title": "Launch",
-    "description": "Deploy and iterate quickly for continuous improvement."
+    "title": "Iteración continua",
+    "description": "Mejoro y optimizo en base a feedback real."
   }
 ]
