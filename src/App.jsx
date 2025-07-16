@@ -24,11 +24,13 @@ function App() {
       <Projects />
       <Features />
       <Steps />
+
       <Experience />
       <Testimonials />
       <FAQ />
       <FinalSection />
       <Contact />
+
       <Footer />
     </div>
   );

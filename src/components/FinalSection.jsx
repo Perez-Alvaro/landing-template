@@ -4,7 +4,9 @@ import "../styles.css";
 
 const FinalSection = () => {
   return (
+
     <section className="final-section fade-in">
+
       <div className="final-container">
         <h2 className="final-title">{finalData.title}</h2>
         <p className="final-description">{finalData.description}</p>

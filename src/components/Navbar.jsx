@@ -4,7 +4,9 @@ import "../styles.css";
 
 const Navbar = () => {
   return (
+
     <nav className="navbar fade-in">
+
       <div className="nav-container">
         <a href={navbarData.logoLink} className="nav-logo">
           {navbarData.logo}
