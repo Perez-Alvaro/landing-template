@@ -12,11 +12,13 @@
   --color-4: #7ef7d0;
   --color-5: #ffffff;
 
+
   --color-bg: var(--color-5);
   --color-text: #222222;
   --color-secondary: #555555;
   --color-accent: var(--color-1);
   --color-card: #f5f7f9;
+
 }
 
 .linear-gradient {
@@ -53,6 +55,7 @@ button {
   opacity: 0.95;
 }
 
+
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -78,6 +81,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
+
 
 /* Simple fade-in animation used across sections */
 .fade-in {
@@ -302,6 +306,7 @@ p {
   color: var(--color-accent);
 }
 
+
 /* ====== FEATURES / SKILLS ====== */
 .features-section {
   background-color: var(--color-bg);
@@ -329,10 +334,12 @@ p {
   transform: translateY(-5px);
 }
 
+
 .feature-icon {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
 
 .feature-title {
   font-size: 1.25rem;
@@ -454,6 +461,7 @@ p {
 .final-button {
   background-color: var(--color-accent);
   color: var(--color-5);
+
 }
 
 /* ====== PROJECTS ====== */
@@ -592,3 +600,4 @@ p {
 .contact-link {
   color: var(--color-accent);
 }
+
