@@ -1,12 +1,12 @@
 import React from "react";
-import testimonialsData from "../data/testimonials.json";
+import defaultData from "../data/testimonials.json";
 import "../styles.css";
 
-const Testimonials = () => {
+const Testimonials = ({ data = defaultData }) => {
   return (
     <section className="testimonials-section fade-in">
       <div className="testimonials-container">
-        {testimonialsData.map((item, index) => (
+        {data.map((item, index) => (
           <div key={index} className="testimonial-card">
             <img
               src={item.avatar}

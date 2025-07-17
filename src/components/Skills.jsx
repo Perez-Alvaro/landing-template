@@ -1,11 +1,11 @@
 import React from "react";
-import skillsData from "../data/skills.json";
+import defaultData from "../data/skills.json";
 import "../styles.css";
 
-const Skills = () => (
+const Skills = ({ data = defaultData }) => (
     <section className="stack-section fade-in" id="skills">
         <div className="stack-container">
-            {skillsData.map((skill, index) => (
+            {data.map((skill, index) => (
                 <div key={index} className="stack-item">
                     <div className="stack-icon">{skill.icon}</div>
                     <div className="stack-name">{skill.title}</div>

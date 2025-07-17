@@ -1,18 +1,18 @@
 import React from "react";
-import aboutData from "../data/about.json";
+import defaultData from "../data/about.json";
 import "../styles.css";
 
-const About = () => {
+const About = ({ data = defaultData }) => {
   return (
     <section className="about-section">
       <div className="about-container">
         {/* Columna izquierda: texto */}
         <div className="about-content">
-          <span className="about-tag">{aboutData.tag}</span>
-          <h2 className="about-title">{aboutData.title}</h2>
-          <p className="about-description">{aboutData.description}</p>
-          <a href={aboutData.buttonLink} className="about-button">
-            {aboutData.buttonText}
+          <span className="about-tag">{data.tag}</span>
+          <h2 className="about-title">{data.title}</h2>
+          <p className="about-description">{data.description}</p>
+          <a href={data.buttonLink} className="about-button">
+            {data.buttonText}
           </a>
         </div>
 

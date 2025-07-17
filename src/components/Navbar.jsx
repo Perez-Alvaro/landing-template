@@ -1,13 +1,13 @@
 import React from "react";
-import navbarData from "../data/navbar.json";
+import defaultData from "../data/navbar.json";
 import "../styles.css";
 
-const Navbar = () => {
+const Navbar = ({ data = defaultData }) => {
   return (
     <nav className="navbar glassy-navbar fade-in">
       <div className="nav-container">
         <div className="nav-links">
-          {navbarData.links.map((link, index) => (
+          {data.links.map((link, index) => (
             <a key={index} href={link.url} className="nav-pill">
               {link.label}
             </a>

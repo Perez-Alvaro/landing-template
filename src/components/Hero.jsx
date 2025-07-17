@@ -1,9 +1,9 @@
 import React from "react";
-import heroData from "../data/hero.json";
+import defaultData from "../data/hero.json";
 import "../styles.css";
 import heroImage from "/assets/Grey_Minimalist_Business_Linkedin_Banner_1.jpeg"; // asegúrate que la imagen esté allí
 
-const Hero = () => {
+const Hero = ({ data = defaultData }) => {
   return (
     <section className="hero-split">
       <div
@@ -11,11 +11,11 @@ const Hero = () => {
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       <div className="hero-card">
-        <div className="hero-tag">{heroData.name}</div>
-        <h1 className="hero-title">{heroData.profession}</h1>
-        <p className="hero-description">{heroData.description}</p>
-        <a href={heroData.buttonLink} className="btn hero-button">
-          {heroData.buttonText}
+        <div className="hero-tag">{data.name}</div>
+        <h1 className="hero-title">{data.profession}</h1>
+        <p className="hero-description">{data.description}</p>
+        <a href={data.buttonLink} className="btn hero-button">
+          {data.buttonText}
         </a>
       </div>
     </section>

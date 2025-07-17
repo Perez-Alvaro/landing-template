@@ -1,11 +1,11 @@
 import React from "react";
-import featuresData from "../data/features.json";
+import defaultData from "../data/features.json";
 
-const Features = () => {
+const Features = ({ data = defaultData }) => {
   return (
     <section className="features-section">
       <div className="features-container">
-        {featuresData.map((feature, index) => (
+        {data.map((feature, index) => (
           <div key={index} className="feature-card">
             <div className="feature-icon">{feature.icon}</div>
             <h3 className="feature-title">{feature.title}</h3>
