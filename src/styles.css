@@ -372,6 +372,7 @@ p {
 .faq-item.open .faq-icon {
   transform: rotate(180deg);
 }
+
 .footer-section {
   background: linear-gradient(0.25turn, var(--color-2), var(--color-1));
   color: var(--color-text);

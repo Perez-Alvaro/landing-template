@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import faqData from "../data/faq.json";
+import "../styles.css";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -9,7 +10,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="faq-section">
+    <section className="faq-section fade-in">
       <div className="faq-container">
         <h2 className="faq-title">Preguntas frecuentes</h2>
         {faqData.map((item, index) => (
@@ -20,9 +21,20 @@ const FAQ = () => {
           >
             <h3 className="faq-question">
               {item.question}
-              <span className="faq-icon">▼</span>
+              <span className={`faq-icon ${openIndex === index ? "rotate" : ""}`}>
+                ▼
+              </span>
             </h3>
-            <p className="faq-answer">{item.answer}</p>
+            <div
+              className="faq-answer-wrapper"
+              style={{
+                maxHeight: openIndex === index ? "300px" : "0",
+                overflow: "hidden",
+                transition: "max-height 0.4s ease",
+              }}
+            >
+              <p className="faq-answer">{item.answer}</p>
+            </div>
           </div>
         ))}
       </div>
