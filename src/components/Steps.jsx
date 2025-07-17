@@ -1,11 +1,11 @@
 import React from "react";
-import stepsData from "../data/steps.json";
+import defaultData from "../data/steps.json";
 
-const Steps = () => {
+const Steps = ({ data = defaultData }) => {
   return (
     <section className="steps-section">
       <div className="steps-container">
-        {stepsData.map((step, index) => (
+        {data.map((step, index) => (
           <div key={index} className="step-card">
             <div className="step-number">{step.step}</div>
             <h3 className="step-title">{step.title}</h3>

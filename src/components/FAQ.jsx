@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import faqData from "../data/faq.json";
+import defaultData from "../data/faq.json";
 import "../styles.css";
 
-const FAQ = () => {
+const FAQ = ({ data = defaultData }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {
@@ -13,7 +13,7 @@ const FAQ = () => {
     <section className="faq-section fade-in">
       <div className="faq-container">
         <h2 className="faq-title">Preguntas frecuentes</h2>
-        {faqData.map((item, index) => (
+        {data.map((item, index) => (
           <div
             key={index}
             className={`faq-item ${openIndex === index ? "open" : ""}`}

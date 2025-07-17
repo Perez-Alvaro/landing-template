@@ -1,0 +1,23 @@
+/* ====== RESET Y FUENTES BASE ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Palette inspired by modern clean design */
+  --color-1: #D7FB00; /* highlight */
+  --color-2: #70CFFF; /* solo para botones o detalles */
+  --color-3: #EEF7FA; /* light card bg */
+  --color-4: #70CFFF; /* gradient helper */
+  --color-5: #FFFFFF;
+
+
+  --color-bg: var(--color-5); /* global background */
+  --color-text: #000000; /* main text */
+  --color-secondary: #555555;
+  --color-accent: var(--color-2); /* buttons */
+  --color-card: var(--color-3);
+
+}

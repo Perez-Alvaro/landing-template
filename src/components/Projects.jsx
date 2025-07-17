@@ -1,11 +1,11 @@
 import React from "react";
-import projectsData from "../data/projects.json";
+import defaultData from "../data/projects.json";
 import "../styles.css";
 
-const Projects = () => (
+const Projects = ({ data = defaultData }) => (
   <section className="projects-section fade-in" id="projects">
     <div className="projects-container">
-      {projectsData.map((project, index) => (
+      {data.map((project, index) => (
         <div key={index} className="project-card">
           <img src={project.image} alt={project.title} className="project-image" />
           <h3 className="project-title">{project.title}</h3>
