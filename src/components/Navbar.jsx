@@ -4,20 +4,18 @@ import "../styles.css";
 
 const Navbar = () => {
   return (
-
-    <nav className="navbar fade-in">
-
+    <nav className="navbar glassy-navbar fade-in">
       <div className="nav-container">
-        <a href={navbarData.logoLink} className="nav-logo">
-          {navbarData.logo}
-        </a>
         <div className="nav-links">
           {navbarData.links.map((link, index) => (
-            <a key={index} href={link.url} className="nav-link">
+            <a key={index} href={link.url} className="nav-pill">
               {link.label}
             </a>
           ))}
         </div>
+        <a href="mailto:perezalvarozul24@gmail.com" className="nav-cta">
+          Escribime
+        </a>
       </div>
     </nav>
   );

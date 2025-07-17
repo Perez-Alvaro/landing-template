@@ -1,8 +1,12 @@
 [
-  { "title": "React", "type": "tech" },
-  { "title": "JavaScript", "type": "tech" },
-  { "title": "Python", "type": "tech" },
-  { "title": "Figma", "type": "tech" },
-  { "title": "Trabajo en equipo", "type": "soft" },
-  { "title": "Planificación de proyectos", "type": "soft" }
+  { "title": "React", "category": "Frontend", "icon": "⚛️", "level": "Avanzado" },
+  { "title": "Node.js", "category": "Backend", "icon": "🟢", "level": "Intermedio" },
+  { "title": "Python", "category": "Lenguaje", "icon": "🐍", "level": "Avanzado" },
+  { "title": "SQL", "category": "Base de Datos", "icon": "🗃️", "level": "Intermedio" },
+  { "title": "Docker", "category": "DevOps", "icon": "🐳", "level": "Básico" },
+  { "title": "Git", "category": "Control de Versiones", "icon": "🔧", "level": "Avanzado" },
+  { "title": "UX/UI", "category": "Diseño", "icon": "🎨", "level": "Intermedio" },
+  { "title": "Gestión de Mejora de Procesos", "category": "Management", "icon": "📈", "level": "Avanzado" },
+  { "title": "Trabajo en Equipo", "category": "Soft Skill", "icon": "🤝", "level": "Avanzado" },
+  { "title": "Comunicación Efectiva", "category": "Soft Skill", "icon": "🗣️", "level": "Avanzado" }
 ]

@@ -4,23 +4,23 @@ import "../styles.css";
 
 const About = () => {
   return (
-    <section className="section about-section">
-      <div className="about-grid">
+    <section className="about-section">
+      <div className="about-container">
+        {/* Columna izquierda: texto */}
         <div className="about-content">
-          <span className="badge">{aboutData.badge}</span>
+          <span className="about-tag">{aboutData.tag}</span>
           <h2 className="about-title">{aboutData.title}</h2>
           <p className="about-description">{aboutData.description}</p>
+
           <a href={aboutData.button.link} className="btn">
             {aboutData.button.text}
+
           </a>
         </div>
 
-        <div className="about-image-wrapper">
-          <img
-            src="/about-default.png"
-            alt="About illustration"
-            className="about-image"
-          />
+        {/* Columna derecha: imagen */}
+        <div className="about-image">
+          <img src="/assets/about-illustration.png" alt="About Illustration" />
         </div>
       </div>
     </section>
