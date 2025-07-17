@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-tag">{heroData.name}</div>
         <h1 className="hero-title">{heroData.profession}</h1>
         <p className="hero-description">{heroData.description}</p>
-        <a href={heroData.buttonLink} className="hero-button">
+        <a href={heroData.buttonLink} className="btn hero-button">
           {heroData.buttonText}
         </a>
       </div>

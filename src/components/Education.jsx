@@ -3,7 +3,7 @@ import educationData from "../data/education.json";
 import "../styles.css";
 
 const Education = () => (
-    <section className="experience-section fade-in" id="education">
+    <section className="section experience-section fade-in" id="education">
         <div className="experience-container">
             {educationData.map((item, index) => (
                 <div key={index} className="experience-item">

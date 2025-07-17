@@ -3,7 +3,7 @@ import experienceData from "../data/experience.json";
 import "../styles.css";
 
 const Experience = () => (
-  <section className="experience-section fade-in" id="experience">
+  <section className="section experience-section fade-in" id="experience">
     <div className="experience-container">
       {experienceData.map((item, index) => (
         <div key={index} className="experience-item">

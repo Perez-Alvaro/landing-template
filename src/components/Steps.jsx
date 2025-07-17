@@ -3,7 +3,7 @@ import stepsData from "../data/steps.json";
 
 const Steps = () => {
   return (
-    <section className="steps-section">
+    <section className="section steps-section">
       <div className="steps-container">
         {stepsData.map((step, index) => (
           <div key={index} className="step-card">

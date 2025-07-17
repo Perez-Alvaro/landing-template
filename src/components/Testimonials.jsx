@@ -5,7 +5,7 @@ import "../styles.css";
 const Testimonials = () => {
   return (
 
-    <section className="testimonials-section fade-in">
+    <section className="section testimonials-section fade-in">
 
       <div className="testimonials-container">
         {testimonialsData.map((item, index) => (

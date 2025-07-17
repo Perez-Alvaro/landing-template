@@ -3,7 +3,7 @@ import projectsData from "../data/projects.json";
 import "../styles.css";
 
 const Projects = () => (
-  <section className="projects-section fade-in" id="projects">
+  <section className="section projects-section fade-in" id="projects">
     <div className="projects-container">
       {projectsData.map((project, index) => (
         <div key={index} className="project-card">
