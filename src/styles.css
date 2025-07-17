@@ -374,7 +374,7 @@ p {
 }
 
 .footer-section {
-  background: linear-gradient(0.25turn, var(--color-2), var(--color-1));
+  background-color: var(--color-card);
   color: var(--color-text);
   padding: 3rem 1rem 2rem;
   transition: background-color 0.3s ease;
@@ -405,11 +405,25 @@ p {
   gap: 0.5rem;
 }
 
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .footer-link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
   color: var(--color-secondary);
   text-decoration: none;
   font-size: 0.95rem;
   transition: color 0.2s ease;
+}
+
+.footer-link img {
+  width: 20px;
+  height: 20px;
 }
 
 .footer-link:hover {
@@ -658,10 +672,13 @@ p {
 
 /* ====== FINAL SECTION ====== */
 .final-section {
-  background-color: var(--color-bg);
+  padding: 100px 20px;
+  background: linear-gradient(135deg, var(--color-2) 0%, var(--color-1) 50%, white 100%);
   color: var(--color-text);
   text-align: center;
-  padding: 4rem 1rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .final-container {
@@ -680,9 +697,14 @@ p {
 }
 
 .final-button {
-  background-color: var(--color-accent);
-  color: var(--color-5);
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  transition: transform 0.2s ease;
+}
 
+.final-button:hover {
+  transform: scale(1.05);
 }
 
 /* ====== PROJECTS ====== */
