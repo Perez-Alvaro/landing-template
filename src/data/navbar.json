@@ -1,6 +1,4 @@
 {
-  "logo": "Álvaro Perez",
-  "logoLink": "#",
   "links": [
     { "label": "Sobre mí", "url": "#about" },
     { "label": "Habilidades", "url": "#skills" },

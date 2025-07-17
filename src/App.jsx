@@ -10,7 +10,6 @@ import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials";
 import FinalSection from "./components/FinalSection";
 import Projects from "./components/Projects";
-import Stack from "./components/Stack";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
@@ -21,7 +20,6 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Stack />
       <Projects />
       <Skills />
       <Steps />
