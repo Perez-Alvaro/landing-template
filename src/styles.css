@@ -7,6 +7,10 @@
   background: radial-gradient(circle, var(--color-1), var(--color-2), var(--color-3));
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--color-bg);
@@ -69,6 +73,26 @@ button {
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+/* Scroll reveal animation */
+.fade-in-scroll {
+  opacity: 0;
+  transform: translateY(40px) scale(0.95);
+  filter: blur(6px);
+  transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.22,1,0.36,1), filter 0.8s ease-out;
+  will-change: opacity, transform, filter;
+}
+
+.fade-in-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+/* Ensure anchor links align below sticky navbar */
+section[id] {
+  scroll-margin-top: 6rem;
 }
 
 /* Generic section padding */

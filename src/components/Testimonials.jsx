@@ -4,7 +4,7 @@ import "../styles.css";
 
 const Testimonials = ({ data = defaultData }) => {
   return (
-    <section className="testimonials-section fade-in">
+    <section className="testimonials-section fade-in" id="testimonials">
       <div className="testimonials-container">
         {data.map((item, index) => (
           <div key={index} className="testimonial-card">
