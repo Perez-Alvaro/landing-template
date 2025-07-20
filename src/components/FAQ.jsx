@@ -10,7 +10,7 @@ const FAQ = ({ data = defaultData }) => {
   };
 
   return (
-    <section className="faq-section fade-in">
+    <section className="faq-section fade-in" id="faq">
       <div className="faq-container">
         <h2 className="faq-title">Preguntas frecuentes</h2>
         {data.map((item, index) => (

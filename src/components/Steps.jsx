@@ -3,7 +3,7 @@ import defaultData from "../data/steps.json";
 
 const Steps = ({ data = defaultData }) => {
   return (
-    <section className="steps-section">
+    <section className="steps-section" id="steps">
       <div className="steps-container">
         {data.map((step, index) => (
           <div key={index} className="step-card">

@@ -5,7 +5,7 @@ import "../styles.css";
 const FinalSection = ({ data = defaultData }) => {
   return (
 
-    <section className="final-section fade-in">
+    <section className="final-section fade-in" id="contact">
 
       <div className="final-container">
         <h2 className="final-title">{data.title}</h2>

@@ -4,7 +4,7 @@ import "../styles.css";
 
 const About = ({ data = defaultData }) => {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="about-container">
         {/* Columna izquierda: texto */}
         <div className="about-content">
