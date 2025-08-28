@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import defaultData from "../data/projects.json";
 import "../styles.css";
 
@@ -10,7 +11,9 @@ const Projects = ({ data = defaultData }) => (
           <img src={project.image} alt={project.title} className="project-image" />
           <h3 className="project-title">{project.title}</h3>
           <p className="project-description">{project.description}</p>
-          <a href={project.url} className="btn project-link">View Project</a> {/* botones unificados */}
+
+          <Link to={`/project/${project.id}`} className="btn project-link">Ver proyecto</Link> {/* enlace interno a la plantilla del proyecto */}
+
         </div>
       ))}
     </div>

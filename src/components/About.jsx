@@ -10,17 +10,19 @@ const About = ({ data = defaultData }) => {
         {/* Columna izquierda: texto */}
         <div className="about-content">
           <span className="about-tag">{data.tag}</span>
-          <h2 className="about-title">{data.title}</h2>
-          <p className="about-description">{data.description}</p>
-          <a href={data.buttonLink} className="btn about-button"> {/* botones unificados */}
-            {data.buttonText}
-          </a>
-        </div>
+
+            <h2 className="about-title text-gray-900">{data.title}</h2> {/* mejora contraste del texto */}
+            <p className="about-description text-gray-700">{data.description}</p>
+            <a href={data.buttonLink} className="btn about-button w-full sm:w-auto"> {/* botones unificados */}
+              {data.buttonText}
+            </a>
+          </div>
 
         {/* Columna derecha: imagen */}
-        <div className="about-image">
-          <img src="/assets/about-illustration.png" alt="About Illustration" className="w-64 h-64 rounded-full object-cover" /> {/* recorta la foto */}
-        </div>
+          <div className="about-image">
+            <img src="/assets/about-illustration.png" alt="About Illustration" className="w-64 h-64 rounded-full object-cover" /> {/* recorta la foto */}
+          </div>
+
       </div>
     </section>
   );

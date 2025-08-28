@@ -2,7 +2,6 @@ import about from './about.json';
 import contact from './contact.json';
 import education from './education.json';
 import experience from './experience.json';
-import faq from './faq.json';
 import features from './features.json';
 import finalSection from './finalSection.json';
 import footer from './footer.json';
@@ -18,7 +17,6 @@ export default {
   contact,
   education,
   experience,
-  faq,
   features,
   finalSection,
   footer,
