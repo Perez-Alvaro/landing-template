@@ -41,15 +41,15 @@ button {
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  border-radius: 1.5rem;
-  background-color: var(--color-accent);
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #3b82f6, #06b6d4); /* estilo de botones unificado */
   color: var(--color-5);
-  font-weight: 600;
-  transition: background-color 0.2s ease;
+  font-weight: 700;
+  transition: opacity 0.2s ease;
 }
 
 .btn:hover {
-  background-color: var(--color-3);
+  opacity: 0.9; /* hover claro */
 }
 
 .badge {
@@ -190,13 +190,7 @@ p {
 }
 
 .hero-button {
-  padding: 0.75rem 1.5rem;
-  background: linear-gradient(90deg, #3b82f6, #06b6d4);
-  color: white;
-  border-radius: 999px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease; /* unifica estilo con .btn */
 }
 
 .hero-split {
@@ -245,7 +239,7 @@ p {
 }
 
 .hero-button:hover {
-  background: linear-gradient(90deg, #2563eb, #0ea5e9);
+  transform: scale(1.05); /* hover claro */
 }
 
 /* ANIMACIÓN SUAVE */
@@ -309,18 +303,12 @@ p {
   font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 30px;
-  color: #333;
+  color: #222; /* mejora contraste del texto */
 }
 
 .about-button {
-  background: linear-gradient(90deg, #007bff, #00d4ff);
-  color: white;
-  padding: 12px 24px;
-  border-radius: 999px;
-  font-weight: 600;
-  text-decoration: none;
   box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease; /* unifica estilo del botón */
 }
 
 .about-button:hover {
@@ -335,9 +323,17 @@ p {
 }
 
 .about-image img {
-  width: 100%;
-  max-width: 450px;
-  object-fit: contain;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%; /* recorta la foto personal */
+  object-fit: cover; /* evita deformación */
+}
+
+@media (max-width: 640px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center; /* simetría en pantallas pequeñas */
+  }
 }
 
 
@@ -698,14 +694,12 @@ p {
 
 .final-description {
   margin-bottom: 1.5rem;
-  color: var(--color-secondary);
+  color: #222; /* mejora contraste del texto */
 }
 
 .final-button {
-  background: linear-gradient(90deg, #007bff, #00d4ff);
-  color: white;
   box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease; /* unifica estilo del botón */
 }
 
 .final-button:hover {
@@ -724,6 +718,7 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  justify-items: center; /* centra cards */
 }
 
 .project-card {
@@ -765,20 +760,46 @@ p {
 
 
 .project-link {
-  color: var(--color-accent);
-  font-weight: 600;
+  transition: transform 0.2s ease; /* estilo de botón unificado */
   text-decoration: none;
-
-  /* 🔧 Para que parezca botón */
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  background-color: rgba(0, 0, 0, 0.05);
-  transition: all 0.2s ease;
 }
 
 .project-link:hover {
-  background-color: var(--color-accent);
-  color: white;
+  transform: scale(1.05);
+}
+
+/* ====== PROJECT DETAIL ====== */
+.project-detail-section {
+  background-color: var(--color-bg);
+  padding: 4rem 1rem;
+}
+
+.project-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project-detail-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+
+.project-detail-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.project-detail-description {
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
+}
+
+.project-detail-button {
+  display: inline-block;
 }
 
 
@@ -795,6 +816,7 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.5rem;
   text-align: center;
+  justify-items: center; /* centra habilidades */
 }
 
 .stack-item {
@@ -814,64 +836,52 @@ p {
 
 /* ====== EXPERIENCE ====== */
 /* EXPERIENCE SECTION */
-.experience-section {
+.career-section {
   background: linear-gradient(180deg, var(--color-3), var(--color-5));
   padding: 4rem 1rem;
 }
 
-.experience-container {
-  max-width: 800px;
+.career-container {
+  max-width: 1100px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
-  position: relative;
 }
 
-.experience-container::before {
-  content: "";
-  position: absolute;
-  left: 20px;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: var(--color-1);
+@media (min-width: 768px) {
+  .career-container {
+    grid-template-columns: 1fr 1fr; /* nueva estructura en columnas para educación y experiencia */
+  }
 }
 
-.experience-item {
+.career-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.career-item {
   background: var(--color-card);
   padding: 1.5rem 2rem;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
-  position: relative;
-  margin-left: 40px;
+  margin-bottom: 1rem;
 }
 
-.experience-item::before {
-  content: "";
-  position: absolute;
-  top: 1.5rem;
-  left: -28px;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: var(--color-2);
-  border: 2px solid white;
-}
-
-.experience-year {
+.career-year {
   font-weight: 600;
   color: var(--color-2);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
-.experience-role {
-  font-size: 1.1rem;
+.career-role {
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
-.experience-description {
+.career-description {
   color: var(--color-secondary);
   font-size: 0.95rem;
 }

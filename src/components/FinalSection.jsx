@@ -5,12 +5,12 @@ import "../styles.css";
 const FinalSection = ({ data = defaultData }) => {
   return (
 
-    <section className="final-section fade-in" id="contact">
-
-      <div className="final-container">
-        <h2 className="final-title">{data.title}</h2>
-        <p className="final-description">{data.description}</p>
-        <a href={data.buttonLink} className="btn final-button">
+    <section className="final-section fade-in relative" id="contact">
+      <div className="absolute inset-0 bg-white/80" /> {/* mejora contraste del texto */}
+      <div className="final-container relative z-10">
+        <h2 className="final-title text-gray-900">{data.title}</h2> {/* mejora contraste del texto */}
+        <p className="final-description text-gray-700">{data.description}</p>
+        <a href={data.buttonLink} className="btn final-button w-full sm:w-auto">
           {data.buttonText}
         </a>
       </div>

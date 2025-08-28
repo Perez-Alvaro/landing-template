@@ -1,38 +1,38 @@
 [
   {
+    "id": "automatizacion-invernaderos",
     "title": "Automatización de invernaderos",
     "description": "Sistema de sensores y control con Arduino y Python.",
-    "image": "/about-default.png",
-    "url": "/proyecto"
+    "image": "/about-default.png"
   },
   {
+    "id": "planificador-proyectos",
     "title": "Planificador de Proyectos",
     "description": "Herramienta colaborativa para planificación remota.",
-    "image": "/about-default.png",
-    "url": "/proyecto"
+    "image": "/about-default.png"
   },
   {
+    "id": "prototipador-ux",
     "title": "Prototipador UX",
     "description": "Librería de componentes en Figma para diseño ágil.",
-    "image": "/about-default.png",
-    "url": "/proyecto"
+    "image": "/about-default.png"
   },
   {
+    "id": "dashboard-metricas",
     "title": "Dashboard de Métricas",
     "description": "Visualización interactiva de indicadores clave.",
-    "image": "/about-default.png",
-    "url": "/proyecto"
+    "image": "/about-default.png"
   },
   {
+    "id": "bot-automatizacion",
     "title": "Bot de Automatización",
     "description": "Scripts para mejorar procesos repetitivos en empresas.",
-    "image": "/about-default.png",
-    "url": "/proyecto"
+    "image": "/about-default.png"
   },
   {
+    "id": "landing-optimizada",
     "title": "Landing Optimizada",
     "description": "Sitio liviano y responsive para campañas de marketing.",
-    "image": "/about-default.png",
-    "url": "/proyecto"
+    "image": "/about-default.png"
   }
 ]

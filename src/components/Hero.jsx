@@ -14,7 +14,7 @@ const Hero = ({ data = defaultData }) => {
         <div className="hero-tag">{data.name}</div>
         <h1 className="hero-title">{data.profession}</h1>
         <p className="hero-description">{data.description}</p>
-        <a href={data.buttonLink} className="btn hero-button">
+        <a href={data.buttonLink} className="btn hero-button w-full sm:w-auto">
           {data.buttonText}
         </a>
       </div>
