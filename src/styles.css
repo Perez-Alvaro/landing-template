@@ -766,6 +766,7 @@ p {
 
 .project-link:hover {
   transform: scale(1.05);
+
 }
 
 /* ====== PROJECT DETAIL ====== */
@@ -800,6 +801,7 @@ p {
 
 .project-detail-button {
   display: inline-block;
+
 }
 
 
@@ -847,6 +849,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+
 }
 
 @media (min-width: 768px) {
@@ -860,6 +863,7 @@ p {
   font-weight: 700;
   margin-bottom: 1rem;
   color: var(--color-text);
+
 }
 
 .career-item {
@@ -867,7 +871,9 @@ p {
   padding: 1.5rem 2rem;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+
   margin-bottom: 1rem;
+
 }
 
 .career-year {
