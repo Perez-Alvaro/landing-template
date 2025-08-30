@@ -53,14 +53,14 @@ const Navbar = ({ data = defaultData }) => {
             <a
               key={index}
               href={link.url}
-              className={`nav-pill ${activeSection === link.url ? "active" : ""}`}
+              className={`btn-nav ${activeSection === link.url ? "btn-nav--active" : ""}`}
               onClick={(e) => handleClick(e, link.url)}
             >
               {link.label}
             </a>
           ))}
         </div>
-        <a href="mailto:perezalvarozul24@gmail.com" className="nav-cta">
+        <a href="mailto:perezalvarozul24@gmail.com" className="btn-nav nav-cta">
           Escribime
         </a>
       </div>

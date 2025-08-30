@@ -17,7 +17,12 @@ const ProjectDetail = () => {
       <Navbar data={data.navbar} />
       <section className="project-detail-section fade-in">
         <div className="project-detail-container">
-          <img src={project.image} alt={project.title} className="project-detail-image" />
+          <img
+            src={project.coverImage.url}
+            alt={project.coverImage.alt}
+            className="project-detail-image"
+            onError={(e) => (e.currentTarget.src = "/about-default.png")}
+          />
           <h1 className="project-detail-title">{project.title}</h1>
           <p className="project-detail-description">{project.description}</p>
           <Link to="/" className="btn project-detail-button">Volver</Link> {/* botón unificado */}

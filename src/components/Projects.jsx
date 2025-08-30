@@ -1,23 +1,44 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import defaultData from "../data/projects.json";
+import ProjectModal from "./ProjectModal";
 import "../styles.css";
 
-const Projects = ({ data = defaultData }) => (
-  <section className="projects-section fade-in" id="projects">
-    <div className="projects-container">
-      {data.map((project, index) => (
-        <div key={index} className="project-card">
-          <img src={project.image} alt={project.title} className="project-image" />
-          <h3 className="project-title">{project.title}</h3>
-          <p className="project-description">{project.description}</p>
+const Projects = ({ data = defaultData }) => {
+  const [selected, setSelected] = useState(null);
 
-          <Link to={`/project/${project.id}`} className="btn project-link">Ver proyecto</Link> {/* enlace interno a la plantilla del proyecto */}
+  const hasLinks = (links) => links.deploy || links.repo || links.drive;
 
-        </div>
-      ))}
-    </div>
-  </section>
-);
+  return (
+    <section className="projects-section fade-in" id="projects">
+      <div className="projects-container">
+        {data.map((project, index) => (
+          <div key={index} className="project-card">
+            <img
+              src={project.coverImage.url}
+              alt={project.coverImage.alt}
+              className="project-image"
+              loading="lazy"
+              onError={(e) => (e.currentTarget.src = "/about-default.png")}
+            />
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-description">{project.summary}</p>
+
+            <button
+              className="btn-project"
+              onClick={() => setSelected(project)}
+              disabled={!hasLinks(project.links)}
+              title={!hasLinks(project.links) ? "Próximamente" : undefined}
+            >
+              Ver proyecto
+            </button>
+          </div>
+        ))}
+      </div>
+      {selected && (
+        <ProjectModal project={selected} onClose={() => setSelected(null)} />
+      )}
+    </section>
+  );
+};
 
 export default Projects;

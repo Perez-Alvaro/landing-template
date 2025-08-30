@@ -443,15 +443,16 @@ p {
 
 .glassy-navbar {
   backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 1.5rem;
   margin: 1rem auto;
   padding: 0.75rem 1.5rem;
   max-width: 1100px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
   position: sticky;
   top: 0;
   z-index: 50;
+  color: #EDEDED;
 }
 
 .nav-container {
@@ -467,17 +468,14 @@ p {
   background: none;
   border: none;
   font-size: 1.5rem;
-  color: var(--color-text);
+  color: #EDEDED;
 }
 
 .nav-logo {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #111;
+  color: #EDEDED;
   text-decoration: none;
-  background: linear-gradient(90deg, var(--color-2), var(--color-1));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .nav-links {
@@ -486,39 +484,51 @@ p {
   flex-wrap: wrap;
 }
 
-.nav-pill {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 0.45rem 1rem;
-  border-radius: 999px;
+.btn-nav {
+  background: #121212;
+  color: #EDEDED;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 6px 14px rgba(0, 0, 0, 0.45);
   font-size: 0.95rem;
   font-weight: 500;
+  line-height: 1.2;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
-  color: #222;
-  transition: all 0.2s ease-in-out;
+  transition: background 0.2s ease, border 0.2s ease;
 }
 
-.nav-pill:hover {
-  background-color: rgba(203, 255, 0, 0.2);
-  color: #CBFF00;
+.btn-nav:hover {
+  background: #1A1A1A;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
 }
 
-.nav-pill.active {
-  background-color: #CBFF00;
-  color: #000;
+.btn-nav:active {
+  background: #0F0F0F;
+  color: #FFFFFF;
+}
+
+.btn-nav:focus {
+  outline: 2px solid rgba(255, 255, 255, 0.35);
+  outline-offset: 3px;
+}
+
+.btn-nav--active {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.btn-nav--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .nav-cta {
-  padding: 0.5rem 1rem;
-  background: linear-gradient(90deg, #3b82f6, #06b6d4);
-  color: white;
-  border-radius: 999px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background 0.3s ease;
-}
-
-.nav-cta:hover {
-  background: linear-gradient(90deg, #2563eb, #0ea5e9);
+  margin-left: auto;
 }
 
 @media (max-width: 768px) {
@@ -793,14 +803,104 @@ p {
 }
 
 
-.project-link {
-  transition: transform 0.2s ease; /* estilo de botón unificado */
+.btn-project {
+  background: #111;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 4px 6px rgba(0, 0, 0, 0.45);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
   text-decoration: none;
+  transition: background 0.2s ease, transform 0.1s ease;
 }
 
-.project-link:hover {
-  transform: scale(1.05);
+.btn-project:hover {
+  background: #1B1B1B;
+}
 
+.btn-project:active {
+  background: #000;
+  transform: translateY(1px);
+}
+
+.btn-project[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ====== PROJECT MODAL ====== */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background: #121212;
+  color: #EDEDED;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 700px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: #EDEDED;
+  font-size: 1.5rem;
+}
+
+.tag-chip {
+  display: inline-block;
+  background: #1A1A1A;
+  color: #EDEDED;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  margin: 0 0.25rem 0.25rem 0;
+}
+
+.modal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.modal-description {
+  max-width: 65ch;
+  margin-top: 1rem;
+}
+
+.modal-gallery {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.modal-gallery img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 0.5rem;
 }
 
 /* ====== PROJECT DETAIL ====== */
