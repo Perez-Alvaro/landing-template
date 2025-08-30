@@ -1,56 +1,81 @@
 [
   {
-    "id": "automatizacion-invernaderos",
+    "slug": "automatizacion-invernaderos",
     "title": "Automatización de invernaderos",
-    "description": "Sistema de sensores y control con Arduino y Python.",
     "summary": "Sistema de sensores y control con Arduino y Python.",
-    "image": "/about-default.png",
-    "tags": ["IoT", "Arduino"],
-    "link": "/project/automatizacion-invernaderos"
+    "stack": ["Arduino", "Python", "Node.js"],
+    "images": ["/about-default.png", "/about-default.png"],
+    "objective": "Implementar un sistema de monitoreo y control climático para invernaderos.",
+    "role": "Desarrollador full-stack y responsable de integración de hardware.",
+    "technologies": "Arduino, Python, Node.js",
+    "challenges": "Integración de múltiples sensores y comunicación en tiempo real.",
+    "results": "Optimización del riego y control automático de temperatura.",
+    "moreUrl": "https://example.com",
+    "thumbnail": "/about-default.png"
   },
   {
-    "id": "planificador-proyectos",
+    "slug": "planificador-proyectos",
     "title": "Planificador de Proyectos",
-    "description": "Herramienta colaborativa para planificación remota.",
     "summary": "Herramienta colaborativa para planificación remota.",
-    "image": "/about-default.png",
-    "tags": ["Web", "Colaborativo"],
-    "link": "/project/planificador-proyectos"
+    "stack": ["React", "Node.js"],
+    "images": ["/about-default.png"],
+    "objective": "Facilitar la coordinación de tareas en equipos distribuidos.",
+    "role": "Diseño de interfaz y desarrollo front-end.",
+    "technologies": "React, Tailwind, Node.js",
+    "challenges": "Sincronización en tiempo real y manejo de permisos.",
+    "results": "Reducción de tiempos de planificación en un 30%.",
+    "thumbnail": "/about-default.png"
   },
   {
-    "id": "prototipador-ux",
+    "slug": "prototipador-ux",
     "title": "Prototipador UX",
-    "description": "Librería de componentes en Figma para diseño ágil.",
     "summary": "Librería de componentes en Figma para diseño ágil.",
-    "image": "/about-default.png",
-    "tags": ["UX", "Figma"],
-    "link": "/project/prototipador-ux"
+    "stack": ["Figma", "Design System"],
+    "images": ["/about-default.png"],
+    "objective": "Acelerar el proceso de diseño y validar ideas rápidamente.",
+    "role": "Diseñador UX/UI.",
+    "technologies": "Figma",
+    "challenges": "Definición de componentes reutilizables coherentes.",
+    "results": "Mejora del tiempo de entrega de prototipos en 40%.",
+    "thumbnail": "/about-default.png"
   },
   {
-    "id": "dashboard-metricas",
+    "slug": "dashboard-metricas",
     "title": "Dashboard de Métricas",
-    "description": "Visualización interactiva de indicadores clave.",
     "summary": "Visualización interactiva de indicadores clave.",
-    "image": "/about-default.png",
-    "tags": ["Data", "Visualización"],
-    "link": "/project/dashboard-metricas"
+    "stack": ["React", "DataViz"],
+    "images": ["/about-default.png"],
+    "objective": "Centralizar métricas y facilitar la toma de decisiones.",
+    "role": "Desarrollador front-end.",
+    "technologies": "React, Chart.js",
+    "challenges": "Optimizar el rendimiento con grandes volúmenes de datos.",
+    "results": "Mayor claridad en el seguimiento de indicadores.",
+    "thumbnail": "/about-default.png"
   },
   {
-    "id": "bot-automatizacion",
+    "slug": "bot-automatizacion",
     "title": "Bot de Automatización",
-    "description": "Scripts para mejorar procesos repetitivos en empresas.",
     "summary": "Scripts para mejorar procesos repetitivos en empresas.",
-    "image": "/about-default.png",
-    "tags": ["Automation", "Python"],
-    "link": "/project/bot-automatizacion"
+    "stack": ["Python"],
+    "images": ["/about-default.png"],
+    "objective": "Automatizar tareas administrativas repetitivas.",
+    "role": "Desarrollador de scripts.",
+    "technologies": "Python",
+    "challenges": "Adaptar el bot a distintos entornos de clientes.",
+    "results": "Ahorro de horas hombre en tareas rutinarias.",
+    "thumbnail": "/about-default.png"
   },
   {
-    "id": "landing-optimizada",
+    "slug": "landing-optimizada",
     "title": "Landing Optimizada",
-    "description": "Sitio liviano y responsive para campañas de marketing.",
     "summary": "Sitio liviano y responsive para campañas de marketing.",
-    "image": "/about-default.png",
-    "tags": ["Landing", "Marketing"],
-    "link": "/project/landing-optimizada"
+    "stack": ["HTML", "CSS", "JS"],
+    "images": ["/about-default.png"],
+    "objective": "Incrementar la conversión de campañas digitales.",
+    "role": "Desarrollo front-end y optimización de rendimiento.",
+    "technologies": "Vite, Tailwind",
+    "challenges": "Mantener tiempos de carga mínimos.",
+    "results": "Incremento de conversiones del 15%.",
+    "thumbnail": "/about-default.png"
   }
 ]

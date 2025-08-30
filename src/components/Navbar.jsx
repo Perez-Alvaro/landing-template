@@ -6,10 +6,15 @@ import "../styles.css";
 const Navbar = ({ data = defaultData }) => {
   const handleClick = (e, url) => {
     if (url.startsWith('#')) {
-      e.preventDefault();
-      const target = document.querySelector(url);
-      if (target) {
-        target.scrollIntoView({ behavior: 'smooth' });
+      if (window.location.pathname !== '/') {
+        e.preventDefault();
+        window.location.href = `/${url}`; // fix: navegar a home antes de scroll
+      } else {
+        e.preventDefault();
+        const target = document.querySelector(url);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
       }
     }
   };
