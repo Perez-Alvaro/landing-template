@@ -1,38 +1,78 @@
 [
   {
-    "id": "automatizacion-invernaderos",
-    "title": "Automatización de invernaderos",
-    "description": "Sistema de sensores y control con Arduino y Python.",
-    "image": "/about-default.png"
+    "id": "gestion-inventario",
+    "title": "Gestión de Inventario",
+    "summary": "Dashboard web para seguimiento de stock en tiempo real.",
+    "description": "Aplicación web que permite monitorear el inventario de manera centralizada. Objetivo: reducir pérdidas y optimizar compras. Rol: Frontend. Stack: React y Node.js. Resultado: ↓15% pérdidas de stock.",
+    "tags": ["React", "Node.js", "Dashboard"],
+    "coverImage": {
+      "url": "/assets/projects/gestion-inventario/cover.jpg",
+      "alt": "Vista general del panel de inventario"
+    },
+    "gallery": [
+      { "url": "/assets/projects/gestion-inventario/shot-1.png", "alt": "Tabla de productos con filtros" },
+      { "url": "/assets/projects/gestion-inventario/shot-2.png", "alt": "Gráfico de stock disponible" }
+    ],
+    "links": {
+      "deploy": "https://example.com/inventario",
+      "repo": "https://github.com/usuario/inventario",
+      "drive": "https://drive.google.com/inventario"
+    },
+    "meta": {
+      "role": "Frontend",
+      "timeline": "Mar–Jun 2024",
+      "status": "online",
+      "impact": "↓15% pérdidas de stock"
+    }
   },
   {
-    "id": "planificador-proyectos",
-    "title": "Planificador de Proyectos",
-    "description": "Herramienta colaborativa para planificación remota.",
-    "image": "/about-default.png"
+    "id": "analizador-ventas",
+    "title": "Analizador de Ventas",
+    "summary": "API para detectar patrones de compra.",
+    "description": "Servicio que procesa grandes volúmenes de transacciones para encontrar tendencias de consumo. Objetivo: apoyar decisiones de marketing. Rol: Fullstack. Stack: Python y React. Resultado: ↑20% efectividad en campañas.",
+    "tags": ["Python", "React", "Data"],
+    "coverImage": {
+      "url": "/assets/projects/analizador-ventas/cover.jpg",
+      "alt": "Panel de análisis de ventas"
+    },
+    "gallery": [],
+    "links": {
+      "deploy": null,
+      "repo": "https://github.com/usuario/analizador-ventas",
+      "drive": "https://drive.google.com/analizador"
+    },
+    "meta": {
+      "role": "Fullstack",
+      "timeline": "Ene–Abr 2024",
+      "status": "beta",
+      "impact": "↑20% efectividad en campañas"
+    }
   },
   {
-    "id": "prototipador-ux",
-    "title": "Prototipador UX",
-    "description": "Librería de componentes en Figma para diseño ágil.",
-    "image": "/about-default.png"
-  },
-  {
-    "id": "dashboard-metricas",
-    "title": "Dashboard de Métricas",
-    "description": "Visualización interactiva de indicadores clave.",
-    "image": "/about-default.png"
-  },
-  {
-    "id": "bot-automatizacion",
-    "title": "Bot de Automatización",
-    "description": "Scripts para mejorar procesos repetitivos en empresas.",
-    "image": "/about-default.png"
-  },
-  {
-    "id": "landing-optimizada",
-    "title": "Landing Optimizada",
-    "description": "Sitio liviano y responsive para campañas de marketing.",
-    "image": "/about-default.png"
+    "id": "app-movil-fitness",
+    "title": "App Móvil Fitness",
+    "summary": "Seguimiento de rutinas y progreso personal.",
+    "description": "Aplicación móvil para registrar ejercicios y métricas de salud. Objetivo: motivar al usuario a mantener hábitos saludables. Rol: UX/UI + Frontend. Stack: React Native. Resultado: ↑35% retención de usuarios.",
+    "tags": ["React Native", "UX/UI"],
+    "coverImage": {
+      "url": "/assets/projects/app-movil-fitness/cover.jpg",
+      "alt": "Pantalla principal de la app de fitness"
+    },
+    "gallery": [
+      { "url": "/assets/projects/app-movil-fitness/shot-1.png", "alt": "Registro de actividades" },
+      { "url": "/assets/projects/app-movil-fitness/shot-2.png", "alt": "Gráfica de progreso semanal" }
+    ],
+    "links": {
+      "deploy": "https://example.com/fitness",
+      "repo": null,
+      "drive": "https://drive.google.com/fitness"
+    },
+    "meta": {
+      "role": "UX/UI + Frontend",
+      "timeline": "Jul–Oct 2023",
+      "status": "online",
+      "impact": "↑35% retención de usuarios"
+    }
   }
 ]
+

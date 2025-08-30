@@ -7,10 +7,10 @@
 
 :root {
   /* Palette inspired by modern clean design */
-  --color-1: #D7FB00; /* highlight */
-  --color-2: #70CFFF; /* solo para botones o detalles */
-  --color-3: #EEF7FA; /* light card bg */
-  --color-4: #70CFFF; /* gradient helper */
+  --color-1: #f5f5f5; /* highlight replaced with light grey */
+  --color-2: #e5e5e5; /* detalles en gris claro */
+  --color-3: #d4d4d4; /* light card bg */
+  --color-4: #e5e5e5; /* gradient helper */
   --color-5: #FFFFFF;
 
 
