@@ -3,36 +3,54 @@
     "id": "automatizacion-invernaderos",
     "title": "Automatización de invernaderos",
     "description": "Sistema de sensores y control con Arduino y Python.",
-    "image": "/about-default.png"
+    "summary": "Sistema de sensores y control con Arduino y Python.",
+    "image": "/about-default.png",
+    "tags": ["IoT", "Arduino"],
+    "link": "/project/automatizacion-invernaderos"
   },
   {
     "id": "planificador-proyectos",
     "title": "Planificador de Proyectos",
     "description": "Herramienta colaborativa para planificación remota.",
-    "image": "/about-default.png"
+    "summary": "Herramienta colaborativa para planificación remota.",
+    "image": "/about-default.png",
+    "tags": ["Web", "Colaborativo"],
+    "link": "/project/planificador-proyectos"
   },
   {
     "id": "prototipador-ux",
     "title": "Prototipador UX",
     "description": "Librería de componentes en Figma para diseño ágil.",
-    "image": "/about-default.png"
+    "summary": "Librería de componentes en Figma para diseño ágil.",
+    "image": "/about-default.png",
+    "tags": ["UX", "Figma"],
+    "link": "/project/prototipador-ux"
   },
   {
     "id": "dashboard-metricas",
     "title": "Dashboard de Métricas",
     "description": "Visualización interactiva de indicadores clave.",
-    "image": "/about-default.png"
+    "summary": "Visualización interactiva de indicadores clave.",
+    "image": "/about-default.png",
+    "tags": ["Data", "Visualización"],
+    "link": "/project/dashboard-metricas"
   },
   {
     "id": "bot-automatizacion",
     "title": "Bot de Automatización",
     "description": "Scripts para mejorar procesos repetitivos en empresas.",
-    "image": "/about-default.png"
+    "summary": "Scripts para mejorar procesos repetitivos en empresas.",
+    "image": "/about-default.png",
+    "tags": ["Automation", "Python"],
+    "link": "/project/bot-automatizacion"
   },
   {
     "id": "landing-optimizada",
     "title": "Landing Optimizada",
     "description": "Sitio liviano y responsive para campañas de marketing.",
-    "image": "/about-default.png"
+    "summary": "Sitio liviano y responsive para campañas de marketing.",
+    "image": "/about-default.png",
+    "tags": ["Landing", "Marketing"],
+    "link": "/project/landing-optimizada"
   }
 ]

@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials";
 import FinalSection from "./components/FinalSection";
 import Projects from "./components/Projects";
-import Career from "./components/Career"; // nueva estructura en columnas para educación y experiencia
+import ExperienceEducation from "./components/ExperienceEducation"; // grid 2 columnas experiencia/educación
 import AnimatedSection from "./components/AnimatedSection";
 import data from './data';
 
@@ -33,7 +33,7 @@ function App() {
         <Steps data={data.steps} />
       </AnimatedSection>
       <AnimatedSection>
-        <Career experience={data.experience} education={data.education} />
+        <ExperienceEducation experience={data.experience} education={data.education} />
       </AnimatedSection>
       <AnimatedSection>
         <Testimonials data={data.testimonials} />

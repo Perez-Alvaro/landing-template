@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import defaultData from "../data/navbar.json";
 import "../styles.css";
 
@@ -18,14 +19,20 @@ const Navbar = ({ data = defaultData }) => {
       <div className="nav-container">
         <div className="nav-links">
           {data.links.map((link, index) => (
-            <a
-              key={index}
-              href={link.url}
-              className="nav-pill"
-              onClick={(e) => handleClick(e, link.url)}
-            >
-              {link.label}
-            </a>
+            link.url.startsWith('#') ? (
+              <a
+                key={index}
+                href={link.url}
+                className="nav-pill"
+                onClick={(e) => handleClick(e, link.url)}
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link key={index} to={link.url} className="nav-pill">
+                {link.label}
+              </Link>
+            )
           ))}
         </div>
         <a href="mailto:perezalvarozul24@gmail.com" className="nav-cta">
