@@ -2,16 +2,19 @@
   {
     "step": "1",
     "title": "Prototipado y descubrimiento",
-    "description": "Detecto necesidades y diseño centrado en el usuario."
+    "description": "Detecto necesidades y diseño centrado en el usuario.",
+    "icon": "FiSearch"
   },
   {
     "step": "2",
     "title": "Desarrollo ágil",
-    "description": "Creo un MVP funcional para validar rápidamente."
+    "description": "Creo un MVP funcional para validar rápidamente.",
+    "icon": "FiTool"
   },
   {
     "step": "3",
     "title": "Iteración continua",
-    "description": "Mejoro y optimizo en base a feedback real."
+    "description": "Mejoro y optimizo en base a feedback real.",
+    "icon": "FiRefreshCw"
   }
 ]
