@@ -3,8 +3,8 @@
     { "label": "Sobre mí", "url": "#about" },
     { "label": "Habilidades", "url": "#skills" },
     { "label": "Proyectos", "url": "#projects" },
-    { "label": "Experiencia", "url": "#experience" },
-    { "label": "Educación", "url": "#education" },
+    { "label": "Experiencia", "url": "#experiencia" },
+    { "label": "Educación", "url": "#educacion" },
     { "label": "Contacto", "url": "#contact" }
   ]
 }
