@@ -1,0 +1,9 @@
+{
+  "title": "Mi proceso",
+  "subtitle": "De la idea al valor",
+  "steps": [
+    { "n": 1, "title": "Prototipado y descubrimiento", "desc": "Detecto necesidades y diseño centrado en el usuario." },
+    { "n": 2, "title": "Desarrollo ágil", "desc": "Creo un MVP funcional para validar rápidamente." },
+    { "n": 3, "title": "Iteración continua", "desc": "Mejoro y optimizo en base a feedback real." }
+  ]
+}

@@ -1,6 +1,29 @@
-[
-  {"year": "2022 - Presente", "title": "Ing. en Sistemas", "institution": "Universidad Tecnológica Nacional FRC"},
-  {"year": "2024", "title": "Curso Diseño UX/UI", "institution": "Coderhouse"},
-  {"year": "2023", "title": "Curso Business Analytics", "institution": "Coderhouse"},
-  {"year": "2016 - 2021", "title": "Secundaria Técnica en Automatización de Procesos", "institution": "Instituto Tecnológico del Comahue"}
-]
+{
+  "items": [
+    {
+      "year": "2022 - Presente",
+      "title": "Ing. en Sistemas",
+      "org": "Universidad Tecnológica Nacional FRC",
+      "desc": "Carrera universitaria orientada al desarrollo de sistemas.",
+      "icon": "🎓"
+    },
+    {
+      "year": "2024",
+      "title": "Curso Diseño UX/UI",
+      "org": "Coderhouse",
+      "desc": "Curso enfocado en diseño de interfaces y experiencia de usuario."
+    },
+    {
+      "year": "2023",
+      "title": "Curso Business Analytics",
+      "org": "Coderhouse",
+      "desc": "Análisis de datos para la toma de decisiones."
+    },
+    {
+      "year": "2016 - 2021",
+      "title": "Secundaria Técnica en Automatización de Procesos",
+      "org": "Instituto Tecnológico del Comahue",
+      "desc": "Formación técnica en automatización."
+    }
+  ]
+}

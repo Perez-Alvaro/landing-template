@@ -1,0 +1,8 @@
+[
+  { "title": "React JS", "tag": "Frontend", "level": "Avanzado", "icon": "⚛️" },
+  { "title": "Node.js", "tag": "Backend", "level": "Intermedio", "icon": "🟢" },
+  { "title": "Python", "tag": "Lenguaje", "level": "Avanzado", "icon": "🐍" },
+  { "title": "SQL", "tag": "Base de Datos", "level": "Intermedio", "icon": "🗃️" },
+  { "title": "Docker", "tag": "DevOps", "level": "Básico", "icon": "🐳" },
+  { "title": "Git", "tag": "Control de Versiones", "level": "Avanzado", "icon": "🔧" }
+]

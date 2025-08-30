@@ -1,12 +1,18 @@
-[
 {
-    "year": "2024",
-    "role": "Pasantía en Paason",
-    "description": "Desarrollo de prototipos y automatizaciones con Python y Arduino."
-  },
-  {
-    "year": "2023",
-    "role": "Proyecto freelance",
-    "description": "Implementación de sistemas de monitoreo remoto para equipos industriales."
-  }
-]
+  "items": [
+    {
+      "year": "2024",
+      "title": "Pasantía en Paason",
+      "org": "Paason",
+      "desc": "Desarrollo de prototipos y automatizaciones con Python y Arduino.",
+      "icon": "🛠️"
+    },
+    {
+      "year": "2023",
+      "title": "Proyecto freelance",
+      "org": "Autónomo",
+      "desc": "Implementación de sistemas de monitoreo remoto para equipos industriales.",
+      "icon": "💼"
+    }
+  ]
+}

@@ -9,7 +9,8 @@ import hero from './hero.json';
 import navbar from './navbar.json';
 import projects from './projects.json';
 import skills from './skills.json';
-import steps from './steps.json';
+import tools from './tools.json';
+import process from './process.json';
 import testimonials from './testimonials.json';
 
 export default {
@@ -24,6 +25,7 @@ export default {
   navbar,
   projects,
   skills,
-  steps,
+  tools,
+  process,
   testimonials,
 };

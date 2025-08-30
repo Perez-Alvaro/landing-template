@@ -1,12 +1,6 @@
 [
-  { "title": "React", "category": "Frontend", "icon": "⚛️", "level": "Avanzado" },
-  { "title": "Node.js", "category": "Backend", "icon": "🟢", "level": "Intermedio" },
-  { "title": "Python", "category": "Lenguaje", "icon": "🐍", "level": "Avanzado" },
-  { "title": "SQL", "category": "Base de Datos", "icon": "🗃️", "level": "Intermedio" },
-  { "title": "Docker", "category": "DevOps", "icon": "🐳", "level": "Básico" },
-  { "title": "Git", "category": "Control de Versiones", "icon": "🔧", "level": "Avanzado" },
-  { "title": "UX/UI", "category": "Diseño", "icon": "🎨", "level": "Intermedio" },
-  { "title": "Gestión de Mejora de Procesos", "category": "Management", "icon": "📈", "level": "Avanzado" },
-  { "title": "Trabajo en Equipo", "category": "Soft Skill", "icon": "🤝", "level": "Avanzado" },
-  { "title": "Comunicación Efectiva", "category": "Soft Skill", "icon": "🗣️", "level": "Avanzado" }
+  { "title": "Pensamiento crítico", "level": "Avanzado", "icon": "🤔" },
+  { "title": "Comunicación efectiva", "level": "Avanzado", "icon": "🗣️" },
+  { "title": "Trabajo en equipo", "level": "Avanzado", "icon": "🤝" },
+  { "title": "UX/UI", "level": "Intermedio", "icon": "🎨" }
 ]
