@@ -498,13 +498,19 @@ p {
 }
 
 .nav-pill:hover {
-  background-color: rgba(203, 255, 0, 0.2);
-  color: #CBFF00;
+  background-color: rgba(203, 255, 0, 0.8);
+  color: #000;
 }
 
 .nav-pill.active {
   background-color: #CBFF00;
   color: #000;
+}
+
+.nav-pill:focus,
+.nav-cta:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
 }
 
 .nav-cta {
@@ -796,11 +802,41 @@ p {
 .project-link {
   transition: transform 0.2s ease; /* estilo de botón unificado */
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-link .icon {
+  margin-left: 0.25rem;
 }
 
 .project-link:hover {
   transform: scale(1.05);
+}
 
+.project-link:active {
+  transform: scale(0.95);
+}
+
+.project-link:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  position: relative;
+}
+
+.project-link:disabled:hover::after {
+  content: "Próximamente";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #000;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  white-space: nowrap;
 }
 
 /* ====== PROJECT DETAIL ====== */
@@ -836,6 +872,73 @@ p {
 .project-detail-button {
   display: inline-block;
 
+}
+
+/* ====== PROJECT MODAL ====== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background: var(--color-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+.modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag-chip {
+  background: var(--color-3);
+  color: var(--color-text);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.modal-gallery {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+.modal-gallery img,
+.modal-cover {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.modal-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
 }
 
 
