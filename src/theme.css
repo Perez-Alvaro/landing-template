@@ -21,3 +21,11 @@
   --color-card: var(--color-3);
 
 }
+
+:root.dark {
+  --color-bg: #111111;
+  --color-text: #ffffff;
+  --color-secondary: #d1d5db;
+  --color-accent: #9ca3af;
+  --color-card: #1a1a1a;
+}

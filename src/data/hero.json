@@ -1,8 +1,7 @@
 {
+  "title": "PORTFOLIO",
   "name": "Álvaro Perez",
-  "profession": "Estudiante de Ing. en Sistemas",
-  "description": "Apasionado por la automatización, el desarrollo web y el diseño UX/UI.",
+  "role": "Estudiante de Ing. en Sistemas",
   "buttonText": "Ver proyectos",
-  "buttonLink": "#projects",
-  "image": "/hero-avatar.png"
+  "buttonLink": "#projects"
 }
